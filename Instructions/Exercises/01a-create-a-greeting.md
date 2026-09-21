@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Create a personalized greeting'
