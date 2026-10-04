@@ -119,9 +119,9 @@ Hardcoded values are useful for testing, but a real program should accept input 
     ```csharp
     Console.WriteLine("Enter your bill details:\n");
     Console.Write("Bill amount:    ");
-    decimal billAmount = Convert.ToDecimal(Console.ReadLine());
+    decimal billAmount = Convert.ToDecimal(Console.ReadLine()); //C# minor Execution error: MissingMethodException: Method not found: System.Decimal System.Convert.ToDecimal(string)
     Console.Write("Tip percentage: ");
-    decimal tipPercentage = Convert.ToDecimal(Console.ReadLine());
+    decimal tipPercentage = Convert.ToDecimal(Console.ReadLine()); //C# minor Execution error: MissingMethodException: Method not found: System.Decimal System.Convert.ToDecimal(string)
     ```
 
     Wrapping `Console.ReadLine()` inside `Convert.ToDecimal()` converts the text the user types into a decimal number in a single step.
