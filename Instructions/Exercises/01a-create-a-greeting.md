@@ -1,4 +1,4 @@
----
+Console.WriteLine($"Hello, {name}! It's ---
 lab:
     title: 'Create a personalized greeting'
     description: 'Write a C# program that uses Console.WriteLine(), Console.ReadLine(), and string interpolation to display a personalized greeting message.'
