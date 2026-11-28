@@ -246,7 +246,7 @@ while (!int.TryParse(Console.ReadLine(), out guess))
 
 <details>
 <summary>Show answer</summary>
-`Math.Abs()` returns the positive difference between two numbers, no matter which one is larger. You can use it to check how close a guess is to the secret number:
+`Math.Abs()` returns the absolute value of a number. When the difference between two numbers is passed to it, it returns the non-negative difference, regardless of which number is larger. You can use it to check how close a guess is to the secret number:
 
 ```csharp
 int difference = Math.Abs(guess - secretNumber);
